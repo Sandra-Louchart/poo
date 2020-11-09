@@ -38,5 +38,5 @@ abstract class HighWay
         $this->nbLane = $nbLane;
     }
 
-    abstract public function addVehicle($vehicle);
+    abstract protected function addVehicle($vehicle);
 }

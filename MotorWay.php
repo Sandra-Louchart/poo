@@ -12,8 +12,11 @@ final class MotorWay extends HighWay
 
     public function addVehicle($vehicle)
     {
-        if ($vehicle instanceof Car){
-            $currentVehicles[] = $vehicle;
+        if ($vehicle instanceof Bicycle) {
+            return 'Too dangerous son';
+        } else {
+            $this -> currentVehicles [] = $vehicle;
+            return $this -> currentVehicles;
         }
     }
 }

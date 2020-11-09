@@ -39,6 +39,29 @@ catch (exception $exception){
 } finally {
     echo 'Ma voiture roule comme un donut';
 }
+
+$bike->switchOn();
+if ($bike->switchOn()) {
+    echo 'La lumière est allumée';
+} else {
+    echo 'Il faut pédaler';
+}
+
+$bike=new Bicycle('yellow',1);
+$BMW = new Car('red',5,fuel);
+$bike->forward();
+if ($bike->switchOn()) {
+    echo 'La lumière est allumée';
+} else {
+    echo 'Il faut pédaler';
+}
+
+$BMW->switchOn();
+
+if ($BMW->switchOn()) {
+    echo 'Les phares sont allumés';
+}
+
 //    echo $message = 'your car cannot start: ' .$e->getMessage();
 //    $opel->setParkBrake(false);
 //}finally{

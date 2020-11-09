@@ -18,7 +18,21 @@ class Truck extends Vehicle
         $this->energy = $energy;
         $this->storageCapacity = $storageCapacity;
     }
-
+    public function forward() : string
+    {
+        $this->currentSpeed = 50;
+        return "Cruising speed! ";
+    }
+    public function start(): string
+    {
+        $sentence = "";
+        while ($this->currentSpeed <50) {
+            $this->currentSpeed = $this->currentSpeed + 10;
+            $sentence .= "Go! ";
+        }
+        $sentence .= "Okay ! ";
+        return $sentence;
+    }
     public function fullCargo() : string
     {
         if($this->storageCapacity===$this->cargo){
@@ -69,5 +83,14 @@ class Truck extends Vehicle
     public function setCargo(int $cargo) : void
     {
         $this->cargo = $cargo;
+    }
+    public function switchOn()
+{
+    return true;
+}
+
+    public function switchOff()
+    {
+        return false;
     }
 }

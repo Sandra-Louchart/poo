@@ -3,5 +3,6 @@
 
 interface LightableInterface
 {
-    public function switchOn (bool $)
+    public function switchOn ();
+    public function switchOff();
 }

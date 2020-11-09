@@ -1,6 +1,6 @@
 <?php
 
-abstract class Vehicle
+class Vehicle
 
 {
     protected $color;
@@ -12,12 +12,6 @@ abstract class Vehicle
     {
         $this->color = $color;
         $this->nbSeats = $nbSeats;
-    }
-
-    public function forward(): string
-    {
-        $this->currentSpeed = 15;
-        return "Go !";
     }
 
     public function brake(): string

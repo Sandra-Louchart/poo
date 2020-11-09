@@ -12,8 +12,7 @@ final class ResidentialWay extends HighWay
 
     public function addVehicle($vehicle)
     {
-        if ($vehicle instanceof Car and $this instanceof Truck){
-            $currentVehicles[] = $vehicle;
-        }
+        $this -> currentVehicles [] = $vehicle;
+        return $this -> currentVehicles;
     }
 }
