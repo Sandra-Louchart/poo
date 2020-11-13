@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d0fce0-e1f0-48b3-b0e3-de1fd3f53cc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Speedometer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1604919010615" duration="5756000" />
       <workItem from="1604999257172" duration="1000" />
       <workItem from="1605252800116" duration="621000" />
-      <workItem from="1605253450615" duration="332000" />
+      <workItem from="1605253450615" duration="688000" />
     </task>
     <servers />
   </component>
