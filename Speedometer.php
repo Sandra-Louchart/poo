@@ -13,6 +13,6 @@ class Speedometer
 
     public static function convertToKm (int $miles)
     {
-        return$miles . 'miles éqivaut à '. $miles * self::convertKm . 'Km';
+        return$miles . 'miles équivaut à '. $miles * self::convertKm . 'Km';
     }
 }
